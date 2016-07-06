@@ -15,21 +15,25 @@ provided are the following scripts:
    copied to the default install location.  
 
 # Building from Source  
- 1. create a directory, doesn't matter where or what.  
- 2. clone the git repo  
+ * create a directory, doesn't matter where or what.  
+ * clone the git repo  
+
 ```sh
 git clone https://github.com/jerrymooyman/vim.git  
 ```
- 3. cd to build_win64  
- 4. run config  
+ * cd to build_win64  
+ * run config  
+
 ```sh
 config.cmd  
 ```
- 5. run build  
+
+ * run build  
 ```sh
 build.cmd  
 ```
- 6. run copy-vim  
+
+ * run copy-vim  
 ```sh
 copy-vim.cmd  
 ```
